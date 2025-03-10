@@ -4,7 +4,7 @@
 This project implements a deep learning-based classifier to distinguish between cats and dogs using a VGG-16 model. The model is trained on a Kaggle dataset and leverages transfer learning by utilizing pretrained weights from ImageNet.
 
 ## VGG-16 Model Visualisation
-[./VGG_16_model.png]
+![](./VGG_16_model_expanded.png)
 
 ## Model Architecture
 - **Base Model:** VGG-16 pretrained on ImageNet
@@ -127,7 +127,7 @@ plt.show()
 ```
 
 ## Layers in the model
-[./VGG_16_model_expanded.png]
+![](./VGG_16_model.png)
 
 ## Results
 - Achieved an validation accuracy of [95.2]% on the test dataset.
